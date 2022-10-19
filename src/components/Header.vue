@@ -1,7 +1,7 @@
 <template>
   <header>
-    <h1>HTL Wels / {{msg}}</h1>
-    <h2>JavaScript / DOM-Manipulation / Dynamic List</h2>
+    <h1>{{ heading }}</h1>
+    <h2>{{ subheading }}</h2>
   </header>
 </template>
 
@@ -9,7 +9,8 @@
 export default {
   name: 'Header',
   props: {
-    msg: String,
+    heading: String,
+    subheading: String,
   },
 };
 </script>

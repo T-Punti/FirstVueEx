@@ -1,19 +1,25 @@
 <template>
   <div id="app">
-    <Header msg="5AHIT" />
+    <Header
+      heading="HTL Wels / 5AHIT"
+      subheading="JavaScript / DOM-Manipulation / Dynamic List"
+    />
     <Main />
+    <Example />
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue';
 import Main from './components/Main.vue';
+import Example from './components/Example.vue';
 
 export default {
   name: 'App',
   components: {
     Header,
     Main,
+    Example,
   },
 };
 </script>
